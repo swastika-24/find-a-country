@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="https://iconarchive.com/download/i43605/treetog/junior/earth.ico">
+  <link rel="stylesheet" href="style.css">
+  <title>Where In The World</title>
+</head>
+
+<body id="body">
+
+  <header>
+    <div id="header-text">Where in the world</div>
+    <div id="theme-text">🌙 Dark Mode</div>
+  </header>
+
+  <nav>
+    <div>
+      <input type="text" id="search-box" onkeyup="searchFilter()" placeholder="🔍 Search For a Country" />
+
+      <div>
+        <div>
+          <select id="dropDown-filter" onchange="searchFilter()">
+            <optgroup label="Sort By Region">
+              <option value="none" selected>None</option>
+              <option value="Africa">Africa</option>
+              <option value="North America">North America</option>
+              <option value="South America">South America</option>
+              <option value="Asia">Asia</option>
+              <option value="Europe">Europe</option>
+              <option value="Oceania">Oceania</option>
+            </optgroup>
+          </select>
+        </div>
+  </nav>
+
+  <main>
+
+  </main>
+
+
+
+</body>
+<script src="script.js"></script>
+
+</html>
